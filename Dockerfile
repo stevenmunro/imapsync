@@ -3,7 +3,7 @@ MAINTAINER Medieval <support@medievalwp.com>
 
 RUN apt-get update \
   && apt-get install -y \
-  php5-cli \
+  php7-cli \
   libjson-webtoken-perl \
   libauthen-ntlm-perl \
   libcgi-pm-perl \
