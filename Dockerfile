@@ -44,6 +44,3 @@ CMD ["noop"]
 
 # 
 # End of imapsync Dockerfile
-
-# Start Supervisord
-#CMD ["/bin/bash", "/start.sh"]
