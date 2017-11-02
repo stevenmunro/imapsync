@@ -42,5 +42,5 @@ WORKDIR /data
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["noop"]
 
-# 
+
 # End of imapsync Dockerfile
