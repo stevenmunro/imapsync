@@ -29,6 +29,7 @@ RUN apt-get update \
   libwww-perl \
   procps \
   wget \
+  nano \
   && rm -rf /var/lib/apt/lists/*
 
 RUN wget -N https://imapsync.lamiral.info/imapsync \
