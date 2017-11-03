@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Run sync script.
-php sync.php
+#php sync.php
 
 # Command.
 if [ "$1" = 'noop' ]; then
@@ -10,4 +10,4 @@ fi
 
 exec "$@"
 
-/bin/bash tail -f /dev/null
+tail -f /dev/null
