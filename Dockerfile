@@ -41,8 +41,11 @@ ADD entrypoint.sh /entrypoint.sh
 #USER nobody
 VOLUME /data
 WORKDIR /data
-ENTRYPOINT ["/entrypoint.sh"]
-CMD ["noop"]
+
+CMD ["/bin/bash", "/entrypoint.sh"]
+
+#ENTRYPOINT ["/entrypoint.sh"]
+#CMD ["noop"]
 
 
 # End of imapsync Dockerfile
