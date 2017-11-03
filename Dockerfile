@@ -36,6 +36,7 @@ RUN wget -N https://imapsync.lamiral.info/imapsync \
   && cp imapsync /usr/bin/imapsync \
   && chmod +x /usr/bin/imapsync
 
+ADD entrypoint.sh /entrypoint.sh
 
 USER nobody
 VOLUME /data
