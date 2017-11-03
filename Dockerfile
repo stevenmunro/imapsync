@@ -41,8 +41,8 @@ ADD sync.php /sync.php
 
 
 #USER nobody
-VOLUME /data
-WORKDIR /data
+#VOLUME /data
+#WORKDIR /data
 
 CMD ["/bin/bash", "/entrypoint.sh"]
 
