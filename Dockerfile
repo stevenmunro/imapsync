@@ -37,6 +37,8 @@ RUN wget -N https://imapsync.lamiral.info/imapsync \
   && chmod +x /usr/bin/imapsync
 
 ADD entrypoint.sh /entrypoint.sh
+ADD sync.php /sync.php
+
 
 #USER nobody
 VOLUME /data
