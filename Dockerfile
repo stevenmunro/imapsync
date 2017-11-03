@@ -38,7 +38,7 @@ RUN wget -N https://imapsync.lamiral.info/imapsync \
 
 ADD entrypoint.sh /entrypoint.sh
 
-USER nobody
+#USER nobody
 VOLUME /data
 WORKDIR /data
 ENTRYPOINT ["/entrypoint.sh"]
